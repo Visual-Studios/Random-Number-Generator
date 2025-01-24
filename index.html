@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function generateRandomNumber() {
+            const randomNumber = Math.floor(Math.random() * 100) + 1;
+            document.getElementById('randomNumber').innerText = randomNumber;
+        }
+        </script>
+        </head>
+        <body>
+            <h1>Random Number Generator</h1>
+            <button onclick="generateRandomNumber()">Generate Random Number</button>
+            <p>Random Number: <span id="randomNumber"></span></p>
+        </body>
+        <html>
