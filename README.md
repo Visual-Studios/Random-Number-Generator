@@ -1,3 +1,3 @@
 # Calculator
 
-Calculate things at
+Calculate things at https://visual-studios.github.io/calculator/
